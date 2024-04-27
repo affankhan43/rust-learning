@@ -73,6 +73,38 @@ fn main() {
 
     let summer = my_function(32, 22);
     println!("The Function Return is {}", summer);
+
+
+
+    // CONTROL FLOW
+    let numb = 5;
+    if numb < 22 {
+        println!("First Condition Was True");
+    } else if numb < 10 {
+        println!("Second Condition Was True");
+    } else {
+        println!("Conditions are false");
+    }
+
+    let condition = true;
+    let numb1 = if condition {5} else {6};
+
+    //loops
+    let mut counter = 0;
+    let end = loop {
+        counter+=1;
+        if(counter == 10){
+            break counter;
+        }
+    };
+    println!("Loop Breaks at counter {}", end);
+
+    let mut num = 3;
+
+    while num != 0 {
+        println!("{}!", num);
+        num -= 1;
+    }
 }
 
 fn my_function (x: i32, y: i32) -> i32{
