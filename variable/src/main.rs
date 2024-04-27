@@ -105,6 +105,23 @@ fn main() {
         println!("{}!", num);
         num -= 1;
     }
+
+
+    let a  = [10,20,30,40,50];
+    for element in a.iter() {
+        println!("The value is: {}",element);
+    }
+
+    for nume in 1..6 {
+        println!("{}!", nume);
+    }
+
+
+    //Line Comments
+    
+    /*
+        Block Comments
+     */
 }
 
 fn my_function (x: i32, y: i32) -> i32{
