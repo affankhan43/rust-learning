@@ -42,4 +42,42 @@ fn main() {
     let l = '😀';
     println!("The Charachter l is {}", l);
 
+    //Compound Types (TUPLE)
+    let tup = ("Let's Get Rusty", 123, 44.2);
+    let tup1  = tup;
+    let sub_count = tup1.1;
+
+    let error_codes: [i32; 5] = [200, 202, 404, 500, 503];
+    let not_found = error_codes[2];
+
+    let set = [2; 8];
+
+    //addition
+    let sum1 = 44+66;
+    let sum2 = 44.333 +3.1;
+
+    //substraction
+    let sub1 = 33-11;
+    let sub2 = 31.555 - 123.8;
+
+    //multiplication
+    let mul1 = 6 * 5;
+    let mul2 = 2.55 * 76.77;
+
+    //division
+    let div1 = 56.7 / 9.1;
+    println!("The Division Result is {}", div1);
+
+    //reminder
+    let rem = 65 % 7;
+
+    let summer = my_function(32, 22);
+    println!("The Function Return is {}", summer);
+}
+
+fn my_function (x: i32, y: i32) -> i32{
+    println!("The X is: {}", x);
+    println!("The Y is: {}", y);
+    x+y
+    //return x+y;
 }
