@@ -2,5 +2,8 @@
     * Print Hello World
     * Cargo Hello World Program
     * Guessing Game Cargo Program
-    * variables
+    * Basic Concepts
+        - Variables
+        - Operations
+        - Control Flow
 
